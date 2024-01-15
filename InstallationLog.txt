@@ -1,0 +1,29 @@
+************************************* Invoked: Sun Dec 3 14:21:39 2023
+[0] Arguments: D:\Exe file\msys2-x86_64-20231026.exe
+[6] Operations sanity check succeeded.
+[13] Discarding existing items from cache with version: "1.0.0" . New version: "1.1.0"
+[13] Using metadata cache from "C:/Users/kumar/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[13] Found 0 cached items.
+[13] Language: en-US
+[95] Loaded control script ":/metadata/installer-config/control_js.js"
+[95] Using control script: ":/metadata/installer-config/control_js.js"
+[8235] Fetching latest update information...
+[8244] Loading component scripts...
+[57415] OverwriteTargetDirectory : Warning : You have selected an existing, non-empty directory for installation.
+Note that it will be completely wiped on uninstallation of this application.
+It is not advisable to install into this directory as installation might fail.
+Do you want to continue? Yes|No
+[97810] backup  operation: Mkdir
+[97810] 	- arguments: D:/
+[97810] Done
+[97810] perform  operation: Mkdir
+[97810] 	- arguments: D:/
+[97810] Done
+[97811] Starting elevated process "D:\\Exe file\\msys2-x86_64-20231026.exe" with arguments " --start-server PRODUCTION,{53e3fe52-7e0c-49e7-b3c3-9ecaf083b781},{455e6a69-671a-4d17-897e-3e5d751016be}"
+[110801] Finished starting elevated process.
+[110913] perform  operation: Mkdir
+[110913] 	- arguments: D:/
+[110918] Done
+[110918] installationError : Error : Cannot create directory "D:\": Unknown error.
+[117617] ROLLING BACK operations= 0
+[117620] Installation aborted!
